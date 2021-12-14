@@ -1,0 +1,30 @@
+# We use this file to enforce consistent EOL convention across the whole project
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Use Unix EOL convention for all source files
+*.txt text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.less text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+
+# BAT files must use Windows EOL convention!
+*.bat text eol=crlf
+
+# Binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.ico binary
+*.tif binary
+*.tiff binary
+*.gif binary
+*.exe binary
